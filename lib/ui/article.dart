@@ -243,20 +243,7 @@ class _ArticleScreenState extends State<ArticleScreen> {
         if (_expandDescription)
           SizedBox(height: 10,),
         if (_expandDescription)
-          Container(
-            margin: EdgeInsets.all(10),
-            // height: windowHeight,
-            child: Html.fromDom(
-              document: document,
-              // data: "<body>${getTextByLocale(currentArticle.desc, strings.locale)}",
-              style: {
-                "body": Style(
-                    backgroundColor: (theme.darkMode) ? Colors.black : Colors.white,
-                    color: (theme.darkMode) ? Colors.white : Colors.black
-                ),
-              },
-            ),
-          ),
+          Container(),
       ];
   }
 
