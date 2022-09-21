@@ -123,28 +123,7 @@ class _BlogDetailsScreenState extends State<BlogDetailsScreen> {
   }
 
   _body(){
-    return Container(
-      margin: EdgeInsets.only(left: 10, right: 10),
-      child: ListView(
-        padding: EdgeInsets.only(top: 0),
-      children: [
-        Text(getTextByLocale(_mainModel.openBlog!.name, strings.locale), style: theme.style14W800,),
-        SizedBox(height: 10),
-        Text(timeago.format(_mainModel.openBlog!.time, locale: appSettings.currentServiceAppLanguage),
-            overflow: TextOverflow.ellipsis, style: theme.style10W600Grey),
-        SizedBox(height: 20,),
-        Html(
-            data: "<body>${getTextByLocale(_mainModel.openBlog!.text, strings.locale)}",
-            style: {
-              "body": Style(
-                  backgroundColor: (theme.darkMode) ? Colors.black : Colors.white,
-                  color: (theme.darkMode) ? Colors.white : Colors.black
-              ),
-            }
-        ),
-        SizedBox(height: 300,),
-      ],
-    ));
+    return Container();
   }
 }
 
