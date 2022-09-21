@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "393358856136",
+    "project_id": "modjiapp-60a7b",
+    "storage_bucket": "modjiapp-60a7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393358856136:android:51ef537b5bbfd1cb75bafd",
+        "android_client_info": {
+          "package_name": "com.abg.modjiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393358856136-o468670dlf3fl4sl7qu26q92aikpdlom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkri1IAgm9OhZRHH3ps_tVHI53O8iWpjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393358856136-o468670dlf3fl4sl7qu26q92aikpdlom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
