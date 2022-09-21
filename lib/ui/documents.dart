@@ -217,18 +217,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
 
 
 
-    return Container(
-      margin: EdgeInsets.all(15),
-      child: Html(
-        data: "<body>$_data",
-        style: {
-          "body": Style(
-            backgroundColor: (theme.darkMode) ? Colors.black : Colors.white,
-            color: (theme.darkMode) ? Colors.white : Colors.black
-          ),
-           }
-      ),
-    );
+    return Container();
   }
 }
 
