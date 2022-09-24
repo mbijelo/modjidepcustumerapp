@@ -21,57 +21,7 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  abg_utils:
-
-
-  archive:
-  cached_network_image:
-  cloud_firestore:
-  csv:
-  firebase_auth:
-  firebase_core:
-  firebase_messaging:
-  firebase_storage:
-  flutter_app_badger:
-  flutter_facebook_auth:
-  flutter_html:
-  flutter_paystack:
-  flutter_stripe:
-  geolocator:
-  google_sign_in:
-  google_sign_in_web:
-  http:
-  http_auth:
-  intl:
-  js:
-  maps_toolkit:
-  path_provider:
-  pdf:
-  qr_flutter:
-  razorpay_flutter_31:
-  sign_in_with_apple:
-  timeago:
-  universal_html:
-  url_launcher:
-  uuid:
-  webview_flutter:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  abg_utils: 6.6.7
   pay: ^1.0.6
   share: ^2.0.4
   syncfusion_flutter_sliders: 19.2.48
